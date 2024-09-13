@@ -24,4 +24,4 @@ npm run sync
 npm run async
 ```
 
-Just by calling `createAsyncRouter` instead of `createRouter`, the error is shown -- even if you don't use the returned value.
+Just by calling `createAsyncRouter` instead of `createRouter`, the erroneous behavior is observed (no response) -- even if you don't use the returned value.
